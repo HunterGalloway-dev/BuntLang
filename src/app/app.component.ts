@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { GameModel } from './BuntLangCompiler/Models/game-model';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'BuntLang';
+
+  ngOnInit() {
+
+  }
 }
